@@ -13,9 +13,6 @@ function App() {
             background: '#4158d0',
             color: '#fff',
           },
-          error: {
-            duration: 3000,
-          },
         }}
       />
       <Routes>
