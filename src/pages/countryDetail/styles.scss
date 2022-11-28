@@ -1,0 +1,11 @@
+@import '../../assets/scss/global.scss';
+.detail {
+  .table {
+    margin-top: 8%;
+    box-shadow: $shadow-3;
+  }
+  &__breadcrumb {
+    padding-left: 0 !important;
+    margin-top: 1rem !important;
+  }
+}

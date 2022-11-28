@@ -1,0 +1,9 @@
+@import '../../assets//scss/global.scss';
+.popup {
+  color: $grey-900;
+  &__title {
+    img {
+      margin-right: 0.5rem;
+    }
+  }
+}

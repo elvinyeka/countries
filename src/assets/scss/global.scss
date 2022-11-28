@@ -1,0 +1,140 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap');
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+/* colors */
+$primary-50: #e9fdf8;
+$primary-100: #d3f9ef;
+$primary-200: #a1f0dc;
+$primary-300: #60dbbc;
+$primary-400: #49bb9f;
+$primary-500: #3e9d86;
+$primary-600: #33816d;
+$primary-700: #276556;
+$primary-800: #15483b;
+$primary-900: #033226;
+
+/* grey */
+$grey-50: #f0f4f8;
+$grey-100: #d9e2ec;
+$grey-200: #bcccdc;
+$grey-300: #9fb3c8;
+$grey-400: #829ab1;
+$grey-500: #627d98;
+$grey-600: #486581;
+$grey-700: #334e68;
+$grey-800: #243b53;
+$grey-900: #102a43;
+/* grey */
+$purple-50: #f3f3fe;
+$purple-100: #cbc3e3;
+$purple-200: #e0b0ff;
+$purple-300: #cf9fff;
+$purple-400: #da70d6;
+$purple-500: #c850c0;
+$purple-600: #702963;
+$purple-700: #630330;
+$purple-800: #301934;
+$purple-900: #51414f;
+
+/* rest of the colors */
+$black: #222;
+$white: #fff;
+$red-light: #f8d7da;
+$red-dark: #842029;
+$red-main: #eb2f06;
+$green-light: #d1e7dd;
+$green-dark: #0f5132;
+$green-main: #57b846;
+$iris-900: #4158d0;
+
+/* fonts  */
+$headFont: 'Roboto', Sans-Serif;
+$bodyFont: 'Fira Sans', sans-serif;
+$small-text: 0.875rem;
+$extra-small-text: 0.7em;
+/* rest of the vars */
+$backgroundColor: $purple-50;
+$textColor: $iris-900;
+$borderRadius: 0.25rem;
+$letterSpacing: 1px;
+$transition: 0.4s ease-in-out all;
+$max-width: 1120px;
+$fixed-width: 500px;
+$fluid-width: 90vw;
+$breakpoint-lg: 992px;
+$nav-height: 6rem;
+/* box shadow*/
+$shadow-1: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+$shadow-2: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+$shadow-3: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+  0 4px 6px -2px rgba(0, 0, 0, 0.05);
+$shadow-4: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+  0 10px 10px -5px rgba(0, 0, 0, 0.04);
+
+body {
+  background: $backgroundColor;
+  font-family: $bodyFont;
+  font-weight: 400;
+  line-height: 1.75;
+  color: $textColor;
+  margin: 0;
+  padding: 0;
+}
+input {
+  box-sizing: border-box;
+}
+
+p {
+  margin-bottom: 1.5rem;
+  max-width: 40em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  margin-bottom: 1.38rem;
+  font-family: $headFont;
+  font-weight: 400;
+  line-height: 1.3;
+  text-transform: capitalize;
+  letter-spacing: $letterSpacing;
+}
+
+small,
+.text-small {
+  font-size: $small-text;
+}
+
+a {
+  text-decoration: none;
+  letter-spacing: $letterSpacing;
+}
+a,
+button {
+  line-height: 1.15;
+}
+button:disabled {
+  cursor: not-allowed;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
