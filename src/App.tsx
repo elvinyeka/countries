@@ -15,10 +15,6 @@ function App() {
           },
           error: {
             duration: 3000,
-            theme: {
-              primary: '#eb2f06',
-              secondary: 'black',
-            },
           },
         }}
       />
