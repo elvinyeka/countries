@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="container navbar__inner">
-        <h2 className="navbar__logo">Countries</h2>
+        <h2 className="navbar__logo">REST COUNTRIES</h2>
         <button
           className="navbar__logout"
           type="button"
